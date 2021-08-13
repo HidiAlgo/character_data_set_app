@@ -14,6 +14,8 @@ target 'dataSetApp' do
 
   pod 'RNSketchCanvas', :path => '../node_modules/@terrylinla/react-native-sketch-canvas'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-async-storage/async-storage'
+
   target 'dataSetAppTests' do
     inherit! :complete
     # Pods for testing
